@@ -95,7 +95,6 @@
 		)
 		(capping no)
 		(filling no)
-		(zone_defaults)
 		(grid_origin 145.5 200)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
@@ -137,10 +136,10 @@
 	(footprint "starlight:IN-S124AR-bottom-view"
 		(layer "B.Cu")
 		(uuid "02163484-e86a-4ffc-b1ba-5388ccad69af")
-		(at 167.71 172.5)
+		(at 161.3 274 180)
 		(descr "IN-S124AR Bottom View")
 		(property "Reference" "D11"
-			(at 0 1.9 180)
+			(at 0 1.9 0)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "49fcf13d-31ff-41f2-b6b0-34264a8211f8")
@@ -153,7 +152,7 @@
 			)
 		)
 		(property "Value" "Yellow"
-			(at 0 -1 180)
+			(at 0 -1 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "0d4588e1-9e4f-4526-9553-16e898081287")
@@ -166,7 +165,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -180,7 +179,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -194,7 +193,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -220,7 +219,7 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2.5 180)
+			(at 0 -2.5 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "4edfa204-4a0a-480d-b324-d090d3bee032")
@@ -233,14 +232,14 @@
 			)
 		)
 		(pad "" np_thru_hole circle
-			(at 0 0)
+			(at 0 0 180)
 			(size 2.4 2.4)
 			(drill 2.4)
 			(layers "*.Cu" "*.Mask")
 			(uuid "b53a35f3-242e-4563-b7e2-fc82b6a136db")
 		)
 		(pad "1" smd roundrect
-			(at -1.56 0)
+			(at -1.56 0 180)
 			(size 1.08 1.27)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.15)
@@ -250,7 +249,7 @@
 			(uuid "d895c2de-b738-43da-98fb-2cf831bc24c1")
 		)
 		(pad "2" smd roundrect
-			(at 1.56 0)
+			(at 1.56 0 180)
 			(size 1.08 1.27)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.15)
@@ -505,7 +504,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "070309db-e618-45cf-928f-99d97c6aba45")
-		(at 213 188.25)
+		(at 180.9 191.35)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C4"
@@ -669,7 +668,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D2.5mm"
 		(layer "B.Cu")
 		(uuid "074f1a9e-a93a-42f4-9828-94cb5c39d9f5")
-		(at 215.5 210.75)
+		(at 183.4 213.85)
 		(descr "SMD pad as test Point, diameter 2.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP3"
@@ -783,10 +782,10 @@
 	(footprint "starlight:IN-S124AR-bottom-view"
 		(layer "B.Cu")
 		(uuid "0a13dae4-6c06-4b53-9a06-0baed752b1e8")
-		(at 172.91 169.1)
+		(at 93.5 125.2 -90)
 		(descr "IN-S124AR Bottom View")
 		(property "Reference" "D21"
-			(at 0 1.9 180)
+			(at 0 1.9 90)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "d6ddf083-46d6-4ef0-a280-9775a6dd8dc7")
@@ -799,7 +798,7 @@
 			)
 		)
 		(property "Value" "Yellow"
-			(at 0 -1 180)
+			(at 0 -1 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "a37b5a68-a566-4e18-8152-559027d3b6f6")
@@ -812,7 +811,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 180)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -826,7 +825,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 0 0 180)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -840,7 +839,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 180)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -866,7 +865,7 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2.5 180)
+			(at 0 -2.5 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "eaff1a4d-dabe-45b5-a3e2-e6d6154caad0")
@@ -879,14 +878,14 @@
 			)
 		)
 		(pad "" np_thru_hole circle
-			(at 0 0)
+			(at 0 0 270)
 			(size 2.4 2.4)
 			(drill 2.4)
 			(layers "*.Cu" "*.Mask")
 			(uuid "2794fe48-14ae-4f7e-bc3c-64cf7d3f6dbc")
 		)
 		(pad "1" smd roundrect
-			(at -1.56 0)
+			(at -1.56 0 270)
 			(size 1.08 1.27)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.15)
@@ -896,7 +895,7 @@
 			(uuid "c91538a2-21b9-4a34-9c50-221b28eb7bb8")
 		)
 		(pad "2" smd roundrect
-			(at 1.56 0)
+			(at 1.56 0 270)
 			(size 1.08 1.27)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.15)
@@ -1225,10 +1224,10 @@
 	(footprint "starlight:IN-S124AR-bottom-view"
 		(layer "B.Cu")
 		(uuid "0ffd3b70-32d8-4a11-b766-92ccb50c2713")
-		(at 183.31 162.3)
+		(at 192.8 173.6 90)
 		(descr "IN-S124AR Bottom View")
 		(property "Reference" "D41"
-			(at 0 1.9 180)
+			(at 0 1.9 270)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "8f9224fd-571b-4427-9471-b7143e0bb372")
@@ -1241,7 +1240,7 @@
 			)
 		)
 		(property "Value" "Yellow"
-			(at 0 -1 180)
+			(at 0 -1 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "cda64683-4961-40d8-aa92-de6576e7aec3")
@@ -1254,7 +1253,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -1268,7 +1267,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -1282,7 +1281,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -1308,7 +1307,7 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2.5 180)
+			(at 0 -2.5 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "1df31287-c377-4ac2-8485-45d88718bd78")
@@ -1321,14 +1320,14 @@
 			)
 		)
 		(pad "" np_thru_hole circle
-			(at 0 0)
+			(at 0 0 90)
 			(size 2.4 2.4)
 			(drill 2.4)
 			(layers "*.Cu" "*.Mask")
 			(uuid "2b9e3203-a6cb-45ab-afc1-b2cf1674767c")
 		)
 		(pad "1" smd roundrect
-			(at -1.56 0)
+			(at -1.56 0 90)
 			(size 1.08 1.27)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.15)
@@ -1338,7 +1337,7 @@
 			(uuid "2f56fab5-8fda-49b3-a906-2abe57e090a2")
 		)
 		(pad "2" smd roundrect
-			(at 1.56 0)
+			(at 1.56 0 90)
 			(size 1.08 1.27)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.15)
@@ -1352,10 +1351,10 @@
 	(footprint "starlight:IN-S124AR-bottom-view"
 		(layer "B.Cu")
 		(uuid "1214ddeb-ade1-4946-abe4-aac372f728c8")
-		(at 167.71 148.7)
+		(at 51.5 222.84 -90)
 		(descr "IN-S124AR Bottom View")
 		(property "Reference" "D18"
-			(at 0 1.9 180)
+			(at 0 1.9 90)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "70ac0178-7968-4d74-8bac-7e85945f067a")
@@ -1368,7 +1367,7 @@
 			)
 		)
 		(property "Value" "Yellow"
-			(at 0 -1 180)
+			(at 0 -1 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "b2d37e98-fe32-4e12-8e11-58338509e184")
@@ -1381,7 +1380,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 180)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -1395,7 +1394,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 0 0 180)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -1409,7 +1408,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 180)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -1435,7 +1434,7 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2.5 180)
+			(at 0 -2.5 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "6673fd5d-c07a-497d-9337-7b424cac747b")
@@ -1448,14 +1447,14 @@
 			)
 		)
 		(pad "" np_thru_hole circle
-			(at 0 0)
+			(at 0 0 270)
 			(size 2.4 2.4)
 			(drill 2.4)
 			(layers "*.Cu" "*.Mask")
 			(uuid "5f7c9b6f-88b4-4fcf-a4dc-b4c2b1af7113")
 		)
 		(pad "1" smd roundrect
-			(at -1.56 0)
+			(at -1.56 0 270)
 			(size 1.08 1.27)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.15)
@@ -1465,7 +1464,7 @@
 			(uuid "4c57c181-d11f-45b4-90e3-0b4a2535f597")
 		)
 		(pad "2" smd roundrect
-			(at 1.56 0)
+			(at 1.56 0 270)
 			(size 1.08 1.27)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.15)
@@ -1479,7 +1478,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "12ef6844-71f1-4c2e-b850-8b1d11e5d895")
-		(at 218.25 192.25)
+		(at 186.15 195.35)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C1"
@@ -1643,7 +1642,7 @@
 	(footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 		(layer "B.Cu")
 		(uuid "17ba394f-1a84-4658-bc7c-15ee5acfe90a")
-		(at 216.25 205 180)
+		(at 187 208.5 180)
 		(descr "SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP3"
@@ -2488,10 +2487,10 @@
 	(footprint "starlight:IN-S124AR-bottom-view"
 		(layer "B.Cu")
 		(uuid "3240d010-b703-402a-aaf0-a3e90a02e6cd")
-		(at 172.91 172.5)
+		(at 238.7 169.2 -90)
 		(descr "IN-S124AR Bottom View")
 		(property "Reference" "D20"
-			(at 0 1.9 180)
+			(at 0 1.9 90)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "9b9b2541-0dd5-4589-a13c-8f244a41ff7b")
@@ -2504,7 +2503,7 @@
 			)
 		)
 		(property "Value" "Yellow"
-			(at 0 -1 180)
+			(at 0 -1 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "0a75034e-b91b-4157-9260-86ce8ef376df")
@@ -2517,7 +2516,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 180)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -2531,7 +2530,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 0 0 180)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -2545,7 +2544,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 180)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -2571,7 +2570,7 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2.5 180)
+			(at 0 -2.5 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "9b64d3ca-8fd3-4b44-a51b-8fe2e549a015")
@@ -2584,14 +2583,14 @@
 			)
 		)
 		(pad "" np_thru_hole circle
-			(at 0 0)
+			(at 0 0 270)
 			(size 2.4 2.4)
 			(drill 2.4)
 			(layers "*.Cu" "*.Mask")
 			(uuid "e48de1fc-0dee-4837-b977-be6e08673b0b")
 		)
 		(pad "1" smd roundrect
-			(at -1.56 0)
+			(at -1.56 0 270)
 			(size 1.08 1.27)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.15)
@@ -2601,7 +2600,7 @@
 			(uuid "7eae964f-72c3-4f2e-8020-baa996462be6")
 		)
 		(pad "2" smd roundrect
-			(at 1.56 0)
+			(at 1.56 0 270)
 			(size 1.08 1.27)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.15)
@@ -2615,10 +2614,10 @@
 	(footprint "starlight:IN-S124AR-bottom-view"
 		(layer "B.Cu")
 		(uuid "35896c09-b411-4c01-bff3-387a1e5380db")
-		(at 162.51 145.3)
+		(at 68.9 239.24 -90)
 		(descr "IN-S124AR Bottom View")
 		(property "Reference" "D10"
-			(at 0 1.9 180)
+			(at 0 1.9 90)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "cbbf9aab-29e0-487d-991d-b34b0b6269b3")
@@ -2631,7 +2630,7 @@
 			)
 		)
 		(property "Value" "Yellow"
-			(at 0 -1 180)
+			(at 0 -1 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "edc4a341-d586-46e7-a111-eeb84f75bbaa")
@@ -2644,7 +2643,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 180)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -2658,7 +2657,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 0 0 180)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -2672,7 +2671,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 180)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -2698,7 +2697,7 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2.5 180)
+			(at 0 -2.5 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "b497f19e-eed5-4389-8f42-e31c3ca6c693")
@@ -2711,14 +2710,14 @@
 			)
 		)
 		(pad "" np_thru_hole circle
-			(at 0 0)
+			(at 0 0 270)
 			(size 2.4 2.4)
 			(drill 2.4)
 			(layers "*.Cu" "*.Mask")
 			(uuid "0bcc95ad-bf0c-4535-b18a-54293a4d3e15")
 		)
 		(pad "1" smd roundrect
-			(at -1.56 0)
+			(at -1.56 0 270)
 			(size 1.08 1.27)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.15)
@@ -2728,7 +2727,7 @@
 			(uuid "8cb11b54-f67c-4f75-8b7b-1afffb6ae2e7")
 		)
 		(pad "2" smd roundrect
-			(at 1.56 0)
+			(at 1.56 0 270)
 			(size 1.08 1.27)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.15)
@@ -2742,10 +2741,10 @@
 	(footprint "starlight:IN-S124AR-bottom-view"
 		(layer "B.Cu")
 		(uuid "37da4c48-02dc-44a2-a11c-c1b8f9f99c11")
-		(at 172.91 158.9)
+		(at 229.2 169 -90)
 		(descr "IN-S124AR Bottom View")
 		(property "Reference" "D24"
-			(at 0 1.9 180)
+			(at 0 1.9 90)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "19fec960-a019-4e3b-b302-b0a11dbdc276")
@@ -2758,7 +2757,7 @@
 			)
 		)
 		(property "Value" "Yellow"
-			(at 0 -1 180)
+			(at 0 -1 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "948ebbfc-e35f-437d-8024-364572e07806")
@@ -2771,7 +2770,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 180)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -2785,7 +2784,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 0 0 180)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -2799,7 +2798,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 180)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -2825,7 +2824,7 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2.5 180)
+			(at 0 -2.5 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "213b2b22-0ee2-49fa-b8f1-86498a271bb9")
@@ -2838,14 +2837,14 @@
 			)
 		)
 		(pad "" np_thru_hole circle
-			(at 0 0)
+			(at 0 0 270)
 			(size 2.4 2.4)
 			(drill 2.4)
 			(layers "*.Cu" "*.Mask")
 			(uuid "5b3cb929-0994-45e3-8858-dcf0bcf9f2eb")
 		)
 		(pad "1" smd roundrect
-			(at -1.56 0)
+			(at -1.56 0 270)
 			(size 1.08 1.27)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.15)
@@ -2855,7 +2854,7 @@
 			(uuid "b115797f-f34b-44b2-abb8-ac81a743d82b")
 		)
 		(pad "2" smd roundrect
-			(at 1.56 0)
+			(at 1.56 0 270)
 			(size 1.08 1.27)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.15)
@@ -2869,10 +2868,10 @@
 	(footprint "starlight:IN-S124AR-bottom-view"
 		(layer "B.Cu")
 		(uuid "42c7cedd-aae1-4857-8f60-ab7e842107b6")
-		(at 178.11 165.7)
+		(at 231.3 241.76 -90)
 		(descr "IN-S124AR Bottom View")
 		(property "Reference" "D31"
-			(at 0 1.9 180)
+			(at 0 1.9 90)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "a7e82450-cd81-4a59-9139-95399572f652")
@@ -2885,7 +2884,7 @@
 			)
 		)
 		(property "Value" "Yellow"
-			(at 0 -1 180)
+			(at 0 -1 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "fccd45b8-bd7a-4dbd-a5f3-b05baf42961f")
@@ -2898,7 +2897,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 180)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -2912,7 +2911,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 0 0 180)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -2926,7 +2925,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 180)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -2952,7 +2951,7 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2.5 180)
+			(at 0 -2.5 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "5693ae7a-ddb6-41bf-abb3-8a20a08c5478")
@@ -2965,14 +2964,14 @@
 			)
 		)
 		(pad "" np_thru_hole circle
-			(at 0 0)
+			(at 0 0 270)
 			(size 2.4 2.4)
 			(drill 2.4)
 			(layers "*.Cu" "*.Mask")
 			(uuid "388f3705-93c0-4f71-b785-e5731dcace94")
 		)
 		(pad "1" smd roundrect
-			(at -1.56 0)
+			(at -1.56 0 270)
 			(size 1.08 1.27)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.15)
@@ -2982,7 +2981,7 @@
 			(uuid "3dd93198-945e-4b07-ba54-ea2982ee8090")
 		)
 		(pad "2" smd roundrect
-			(at 1.56 0)
+			(at 1.56 0 270)
 			(size 1.08 1.27)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.15)
@@ -3160,10 +3159,10 @@
 	(footprint "starlight:IN-S124AR-bottom-view"
 		(layer "B.Cu")
 		(uuid "49a66c44-1413-4c48-9ff3-795d439964f8")
-		(at 172.91 165.7)
+		(at 53.9 205 180)
 		(descr "IN-S124AR Bottom View")
 		(property "Reference" "D22"
-			(at 0 1.9 180)
+			(at 0 1.9 0)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "c03ebb2d-e6c0-4810-a12b-d0cc04ec26e1")
@@ -3176,7 +3175,7 @@
 			)
 		)
 		(property "Value" "Yellow"
-			(at 0 -1 180)
+			(at 0 -1 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "d1f2a912-dc2a-4d7d-9f0e-b1132e695616")
@@ -3189,7 +3188,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -3203,7 +3202,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -3217,7 +3216,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -3243,7 +3242,7 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2.5 180)
+			(at 0 -2.5 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "22866308-c978-49e9-a590-c78b65ff8ab1")
@@ -3256,14 +3255,14 @@
 			)
 		)
 		(pad "" np_thru_hole circle
-			(at 0 0)
+			(at 0 0 180)
 			(size 2.4 2.4)
 			(drill 2.4)
 			(layers "*.Cu" "*.Mask")
 			(uuid "24f2051b-39c3-48ce-92eb-c87b27e9f5a7")
 		)
 		(pad "1" smd roundrect
-			(at -1.56 0)
+			(at -1.56 0 180)
 			(size 1.08 1.27)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.15)
@@ -3273,7 +3272,7 @@
 			(uuid "9e43a93d-198f-4855-9300-793ef000cce8")
 		)
 		(pad "2" smd roundrect
-			(at 1.56 0)
+			(at 1.56 0 180)
 			(size 1.08 1.27)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.15)
@@ -3287,7 +3286,7 @@
 	(footprint "starlight:IN-S124AR-bottom-view"
 		(layer "B.Cu")
 		(uuid "4f9e3416-1e19-4fc8-8848-efdc39e4b0cb")
-		(at 172.91 145.3)
+		(at 216.56 147.2)
 		(descr "IN-S124AR Bottom View")
 		(property "Reference" "D28"
 			(at 0 1.9 180)
@@ -3414,7 +3413,7 @@
 	(footprint "starlight:IN-S124AR-bottom-view"
 		(layer "B.Cu")
 		(uuid "54206a0f-0016-47ed-b2dc-75bf776bccbd")
-		(at 178.11 162.3)
+		(at 209.16 145.2)
 		(descr "IN-S124AR Bottom View")
 		(property "Reference" "D32"
 			(at 0 1.9 180)
@@ -3705,10 +3704,10 @@
 	(footprint "starlight:IN-S124AR-bottom-view"
 		(layer "B.Cu")
 		(uuid "56978312-00dd-4105-b400-2d2cdcdd32e3")
-		(at 162.51 152.1)
+		(at 206.9 195.14 90)
 		(descr "IN-S124AR Bottom View")
 		(property "Reference" "D8"
-			(at 0 1.9 180)
+			(at 0 1.9 270)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "00f6cb01-bfce-417e-a5d3-2890f0961aff")
@@ -3721,7 +3720,7 @@
 			)
 		)
 		(property "Value" "Yellow"
-			(at 0 -1 180)
+			(at 0 -1 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "4d67fd3f-f291-4dbe-812f-6cce6da117be")
@@ -3734,7 +3733,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -3748,7 +3747,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -3762,7 +3761,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -3788,7 +3787,7 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2.5 180)
+			(at 0 -2.5 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "6a9bedd8-2fc2-4751-bba1-8b71084b5424")
@@ -3801,14 +3800,14 @@
 			)
 		)
 		(pad "" np_thru_hole circle
-			(at 0 0)
+			(at 0 0 90)
 			(size 2.4 2.4)
 			(drill 2.4)
 			(layers "*.Cu" "*.Mask")
 			(uuid "2f4e1e47-442c-4b93-aa16-363425338b29")
 		)
 		(pad "1" smd roundrect
-			(at -1.56 0)
+			(at -1.56 0 90)
 			(size 1.08 1.27)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.15)
@@ -3818,7 +3817,7 @@
 			(uuid "857a42fe-dca5-41d2-a720-4d4b86a13248")
 		)
 		(pad "2" smd roundrect
-			(at 1.56 0)
+			(at 1.56 0 90)
 			(size 1.08 1.27)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.15)
@@ -3832,10 +3831,10 @@
 	(footprint "starlight:IN-S124AR-bottom-view"
 		(layer "B.Cu")
 		(uuid "5a5a6388-eade-4d26-a555-448bb7d21d10")
-		(at 172.91 162.3)
+		(at 210.66 262.4 180)
 		(descr "IN-S124AR Bottom View")
 		(property "Reference" "D23"
-			(at 0 1.9 180)
+			(at 0 1.9 0)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "4763e0fc-1a32-44da-b75d-b5f11d86917c")
@@ -3848,7 +3847,7 @@
 			)
 		)
 		(property "Value" "Yellow"
-			(at 0 -1 180)
+			(at 0 -1 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "49da795d-93de-45e2-87fd-49332ac8b947")
@@ -3861,7 +3860,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -3875,7 +3874,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -3889,7 +3888,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -3915,7 +3914,7 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2.5 180)
+			(at 0 -2.5 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "b1b63312-8871-4ac5-89dc-d4dc159f2c68")
@@ -3928,14 +3927,14 @@
 			)
 		)
 		(pad "" np_thru_hole circle
-			(at 0 0)
+			(at 0 0 180)
 			(size 2.4 2.4)
 			(drill 2.4)
 			(layers "*.Cu" "*.Mask")
 			(uuid "cae512c4-298f-40e0-aa7c-b6fe08fea0fc")
 		)
 		(pad "1" smd roundrect
-			(at -1.56 0)
+			(at -1.56 0 180)
 			(size 1.08 1.27)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.15)
@@ -3945,7 +3944,7 @@
 			(uuid "d5c546ab-531c-4db7-a86b-9388a4e2ce37")
 		)
 		(pad "2" smd roundrect
-			(at 1.56 0)
+			(at 1.56 0 180)
 			(size 1.08 1.27)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.15)
@@ -3959,10 +3958,10 @@
 	(footprint "starlight:IN-S124AR-bottom-view"
 		(layer "B.Cu")
 		(uuid "5da82646-d7f4-4a26-a9d6-7344fd444507")
-		(at 162.51 155.5)
+		(at 105.5 286.4 90)
 		(descr "IN-S124AR Bottom View")
 		(property "Reference" "D7"
-			(at 0 1.9 180)
+			(at 0 1.9 270)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "dde29f70-4f7c-420c-a2ea-03b3f51da7fc")
@@ -3975,7 +3974,7 @@
 			)
 		)
 		(property "Value" "Yellow"
-			(at 0 -1 180)
+			(at 0 -1 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "2a3b2871-4545-418a-a2ca-b3102c2694c2")
@@ -3988,7 +3987,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -4002,7 +4001,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -4016,7 +4015,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -4042,7 +4041,7 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2.5 180)
+			(at 0 -2.5 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "52c6a404-5ee1-47d2-8bb0-82c87d447790")
@@ -4055,14 +4054,14 @@
 			)
 		)
 		(pad "" np_thru_hole circle
-			(at 0 0)
+			(at 0 0 90)
 			(size 2.4 2.4)
 			(drill 2.4)
 			(layers "*.Cu" "*.Mask")
 			(uuid "2e4af051-163a-4141-a82f-b790397f6b5f")
 		)
 		(pad "1" smd roundrect
-			(at -1.56 0)
+			(at -1.56 0 90)
 			(size 1.08 1.27)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.15)
@@ -4072,7 +4071,7 @@
 			(uuid "f42fd85e-077d-43da-ae30-55f6f9244121")
 		)
 		(pad "2" smd roundrect
-			(at 1.56 0)
+			(at 1.56 0 90)
 			(size 1.08 1.27)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.15)
@@ -4200,7 +4199,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "67731d3f-3e55-4c05-8777-5c697aba790b")
-		(at 218.25 188.25)
+		(at 186.15 191.35)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R2"
@@ -4528,7 +4527,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D2.5mm"
 		(layer "B.Cu")
 		(uuid "72772342-5249-4e07-903e-d9118cb71733")
-		(at 201.5 193.75)
+		(at 169.4 196.85)
 		(descr "SMD pad as test Point, diameter 2.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP7"
@@ -4642,7 +4641,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "733a6376-4d67-4617-b2c6-beb62709bf23")
-		(at 207.5 188.25 180)
+		(at 175.4 191.35 180)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R1"
@@ -4806,7 +4805,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23-6"
 		(layer "B.Cu")
 		(uuid "76ca6485-4c16-4feb-bd4c-7ef04cde3cbd")
-		(at 213 192.25)
+		(at 180.9 195.35)
 		(descr "SOT, 6 Pin (JEDEC MO-178 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=MO-178)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U1"
@@ -5174,10 +5173,10 @@
 	(footprint "starlight:IN-S124AR-bottom-view"
 		(layer "B.Cu")
 		(uuid "7704166e-162b-4f63-b381-9d8e94d197a7")
-		(at 167.71 145.3)
+		(at 197.06 269 180)
 		(descr "IN-S124AR Bottom View")
 		(property "Reference" "D19"
-			(at 0 1.9 180)
+			(at 0 1.9 0)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "4e3013e3-2b82-4c2e-b511-9cf5a818fe4a")
@@ -5190,7 +5189,7 @@
 			)
 		)
 		(property "Value" "Yellow"
-			(at 0 -1 180)
+			(at 0 -1 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "7acdce51-8e45-4975-86a8-e21f6581954b")
@@ -5203,7 +5202,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -5217,7 +5216,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -5231,7 +5230,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -5257,7 +5256,7 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2.5 180)
+			(at 0 -2.5 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "58b00c86-1870-4d30-93c6-8d9613858da7")
@@ -5270,14 +5269,14 @@
 			)
 		)
 		(pad "" np_thru_hole circle
-			(at 0 0)
+			(at 0 0 180)
 			(size 2.4 2.4)
 			(drill 2.4)
 			(layers "*.Cu" "*.Mask")
 			(uuid "7a9008f9-858b-4c66-afbc-1f556aac98fe")
 		)
 		(pad "1" smd roundrect
-			(at -1.56 0)
+			(at -1.56 0 180)
 			(size 1.08 1.27)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.15)
@@ -5287,7 +5286,7 @@
 			(uuid "89b964d5-32c5-4635-bd23-7ad9dcaf9891")
 		)
 		(pad "2" smd roundrect
-			(at 1.56 0)
+			(at 1.56 0 180)
 			(size 1.08 1.27)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.15)
@@ -5301,10 +5300,10 @@
 	(footprint "starlight:IN-S124AR-bottom-view"
 		(layer "B.Cu")
 		(uuid "77c53bf1-638b-438b-86ce-7274c9764a55")
-		(at 178.11 152.1)
+		(at 237.3 229.96 -90)
 		(descr "IN-S124AR Bottom View")
 		(property "Reference" "D35"
-			(at 0 1.9 180)
+			(at 0 1.9 90)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "374a8ea1-ca94-456f-856e-b33c54f2c87c")
@@ -5317,7 +5316,7 @@
 			)
 		)
 		(property "Value" "Yellow"
-			(at 0 -1 180)
+			(at 0 -1 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "539769a1-88de-4470-8cb6-14b8ad8174ea")
@@ -5330,7 +5329,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 180)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -5344,7 +5343,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 0 0 180)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -5358,7 +5357,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 180)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -5384,7 +5383,7 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2.5 180)
+			(at 0 -2.5 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "33c057ed-c8d1-4432-91c8-4354d55217bc")
@@ -5397,14 +5396,14 @@
 			)
 		)
 		(pad "" np_thru_hole circle
-			(at 0 0)
+			(at 0 0 270)
 			(size 2.4 2.4)
 			(drill 2.4)
 			(layers "*.Cu" "*.Mask")
 			(uuid "593a83e2-7ddd-4072-a1d4-25e21f22351e")
 		)
 		(pad "1" smd roundrect
-			(at -1.56 0)
+			(at -1.56 0 270)
 			(size 1.08 1.27)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.15)
@@ -5414,7 +5413,7 @@
 			(uuid "e40c471d-db37-4b52-ae1f-e038000da696")
 		)
 		(pad "2" smd roundrect
-			(at 1.56 0)
+			(at 1.56 0 270)
 			(size 1.08 1.27)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.15)
@@ -5428,10 +5427,10 @@
 	(footprint "starlight:IN-S124AR-bottom-view"
 		(layer "B.Cu")
 		(uuid "793897af-6370-4d36-9d01-0ea0513d1dbd")
-		(at 172.91 148.7)
+		(at 218.06 268.4 180)
 		(descr "IN-S124AR Bottom View")
 		(property "Reference" "D27"
-			(at 0 1.9 180)
+			(at 0 1.9 0)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "812f80ab-6c27-41ec-af92-413e5d7e780d")
@@ -5444,7 +5443,7 @@
 			)
 		)
 		(property "Value" "Yellow"
-			(at 0 -1 180)
+			(at 0 -1 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "dd2cf610-ad08-43cf-86c2-7d0822399470")
@@ -5457,7 +5456,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -5471,7 +5470,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -5485,7 +5484,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -5511,7 +5510,7 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2.5 180)
+			(at 0 -2.5 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "759baf95-a108-4d27-a087-43f79bc11b36")
@@ -5524,14 +5523,14 @@
 			)
 		)
 		(pad "" np_thru_hole circle
-			(at 0 0)
+			(at 0 0 180)
 			(size 2.4 2.4)
 			(drill 2.4)
 			(layers "*.Cu" "*.Mask")
 			(uuid "100fa27e-1723-4e3f-b9b5-f84a78c7f515")
 		)
 		(pad "1" smd roundrect
-			(at -1.56 0)
+			(at -1.56 0 180)
 			(size 1.08 1.27)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.15)
@@ -5541,7 +5540,7 @@
 			(uuid "a7ae6581-bb44-4594-add5-1bbf460e5b10")
 		)
 		(pad "2" smd roundrect
-			(at 1.56 0)
+			(at 1.56 0 180)
 			(size 1.08 1.27)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.15)
@@ -5669,10 +5668,10 @@
 	(footprint "starlight:IN-S124AR-bottom-view"
 		(layer "B.Cu")
 		(uuid "899590e3-c5b2-4a82-bae7-1be53aa6b3ca")
-		(at 167.71 155.5)
+		(at 239.4 202.26 -90)
 		(descr "IN-S124AR Bottom View")
 		(property "Reference" "D16"
-			(at 0 1.9 180)
+			(at 0 1.9 90)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "cba59219-0de9-4d0b-8a64-76e4fac0e1be")
@@ -5685,7 +5684,7 @@
 			)
 		)
 		(property "Value" "Yellow"
-			(at 0 -1 180)
+			(at 0 -1 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "99f0ebbd-37ab-45ed-9972-888153413263")
@@ -5698,7 +5697,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 180)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -5712,7 +5711,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 0 0 180)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -5726,7 +5725,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 180)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -5752,7 +5751,7 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2.5 180)
+			(at 0 -2.5 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "12b2bc0f-73ed-4487-9901-04f0a485508f")
@@ -5765,14 +5764,14 @@
 			)
 		)
 		(pad "" np_thru_hole circle
-			(at 0 0)
+			(at 0 0 270)
 			(size 2.4 2.4)
 			(drill 2.4)
 			(layers "*.Cu" "*.Mask")
 			(uuid "6f8bf79c-9b5b-40fe-a959-8fada55e31c6")
 		)
 		(pad "1" smd roundrect
-			(at -1.56 0)
+			(at -1.56 0 270)
 			(size 1.08 1.27)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.15)
@@ -5782,7 +5781,7 @@
 			(uuid "5aa9925f-c9f9-402b-a3b6-2565bf25dbd7")
 		)
 		(pad "2" smd roundrect
-			(at 1.56 0)
+			(at 1.56 0 270)
 			(size 1.08 1.27)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.15)
@@ -5796,7 +5795,7 @@
 	(footprint "starlight:IN-S124AR-bottom-view"
 		(layer "B.Cu")
 		(uuid "8b0fca6e-3c43-4363-8b10-1b856d25e173")
-		(at 167.71 152.1)
+		(at 145.04 150.5)
 		(descr "IN-S124AR Bottom View")
 		(property "Reference" "D17"
 			(at 0 1.9 180)
@@ -5923,7 +5922,7 @@
 	(footprint "starlight:IN-S124AR-bottom-view"
 		(layer "B.Cu")
 		(uuid "8b8bb795-fed6-443c-b89d-56a146dfaa8d")
-		(at 162.51 158.9)
+		(at 92.7 269)
 		(descr "IN-S124AR Bottom View")
 		(property "Reference" "D6"
 			(at 0 1.9 180)
@@ -6164,10 +6163,10 @@
 	(footprint "starlight:IN-S124AR-bottom-view"
 		(layer "B.Cu")
 		(uuid "90dc7d7b-404b-48b2-9f90-17570cda4327")
-		(at 178.11 172.5)
+		(at 135.76 103.1 180)
 		(descr "IN-S124AR Bottom View")
 		(property "Reference" "D29"
-			(at 0 1.9 180)
+			(at 0 1.9 0)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "e4ae7522-0b30-40b1-94da-27b232a9ac5d")
@@ -6180,7 +6179,7 @@
 			)
 		)
 		(property "Value" "Yellow"
-			(at 0 -1 180)
+			(at 0 -1 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "9ccb1322-83d8-4f30-a2af-ee308b774c31")
@@ -6193,7 +6192,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -6207,7 +6206,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -6221,7 +6220,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -6247,7 +6246,7 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2.5 180)
+			(at 0 -2.5 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "eddb1e3c-21f7-4c77-bcaa-6d84bbcd0de6")
@@ -6260,14 +6259,14 @@
 			)
 		)
 		(pad "" np_thru_hole circle
-			(at 0 0)
+			(at 0 0 180)
 			(size 2.4 2.4)
 			(drill 2.4)
 			(layers "*.Cu" "*.Mask")
 			(uuid "cf8bd018-e2b7-4263-b5f2-ccb5a88e4ccb")
 		)
 		(pad "1" smd roundrect
-			(at -1.56 0)
+			(at -1.56 0 180)
 			(size 1.08 1.27)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.15)
@@ -6277,7 +6276,7 @@
 			(uuid "f8307413-1734-4cd8-9014-aa50a1e9911f")
 		)
 		(pad "2" smd roundrect
-			(at 1.56 0)
+			(at 1.56 0 180)
 			(size 1.08 1.27)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.15)
@@ -6291,10 +6290,10 @@
 	(footprint "starlight:IN-S124AR-bottom-view"
 		(layer "B.Cu")
 		(uuid "92472d1c-deec-46c7-b733-a48c7167a17e")
-		(at 167.71 158.9)
+		(at 187.34 257.6 180)
 		(descr "IN-S124AR Bottom View")
 		(property "Reference" "D15"
-			(at 0 1.9 180)
+			(at 0 1.9 0)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "8de1f80a-c686-45db-b00e-951b39cfec8e")
@@ -6307,7 +6306,7 @@
 			)
 		)
 		(property "Value" "Yellow"
-			(at 0 -1 180)
+			(at 0 -1 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "e075e8db-6d8e-4981-8fdf-4ff766dc7633")
@@ -6320,7 +6319,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -6334,7 +6333,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -6348,7 +6347,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -6374,7 +6373,7 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2.5 180)
+			(at 0 -2.5 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "bbcb3b59-341a-41fc-8963-1c93b56c0a3d")
@@ -6387,14 +6386,14 @@
 			)
 		)
 		(pad "" np_thru_hole circle
-			(at 0 0)
+			(at 0 0 180)
 			(size 2.4 2.4)
 			(drill 2.4)
 			(layers "*.Cu" "*.Mask")
 			(uuid "2798afdf-e542-4d89-af25-dce4d9ec0e0f")
 		)
 		(pad "1" smd roundrect
-			(at -1.56 0)
+			(at -1.56 0 180)
 			(size 1.08 1.27)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.15)
@@ -6404,7 +6403,7 @@
 			(uuid "f5a83568-8060-4dc8-971f-82913d193fcf")
 		)
 		(pad "2" smd roundrect
-			(at 1.56 0)
+			(at 1.56 0 180)
 			(size 1.08 1.27)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.15)
@@ -6418,7 +6417,7 @@
 	(footprint "starlight:IN-S124AR-bottom-view"
 		(layer "B.Cu")
 		(uuid "a111c492-16b4-4508-a418-4fdfd5209429")
-		(at 167.71 162.3)
+		(at 65.34 226)
 		(descr "IN-S124AR Bottom View")
 		(property "Reference" "D14"
 			(at 0 1.9 180)
@@ -6545,10 +6544,10 @@
 	(footprint "starlight:IN-S124AR-bottom-view"
 		(layer "B.Cu")
 		(uuid "ae4e7d12-146a-4fce-8f8f-5be87e60c058")
-		(at 162.51 148.7)
+		(at 159.5 153.3 -90)
 		(descr "IN-S124AR Bottom View")
 		(property "Reference" "D9"
-			(at 0 1.9 180)
+			(at 0 1.9 90)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "69a981a4-b5af-49e1-aeb9-56ec192b6130")
@@ -6561,7 +6560,7 @@
 			)
 		)
 		(property "Value" "Yellow"
-			(at 0 -1 180)
+			(at 0 -1 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "7993ca01-1947-497d-afed-95e341a0856e")
@@ -6574,7 +6573,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 180)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -6588,7 +6587,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 0 0 180)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -6602,7 +6601,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 180)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -6628,7 +6627,7 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2.5 180)
+			(at 0 -2.5 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "ffb736f0-3806-413d-8564-87ac04d2815b")
@@ -6641,14 +6640,14 @@
 			)
 		)
 		(pad "" np_thru_hole circle
-			(at 0 0)
+			(at 0 0 270)
 			(size 2.4 2.4)
 			(drill 2.4)
 			(layers "*.Cu" "*.Mask")
 			(uuid "5068267f-e38a-4c4b-a5e8-75721ca8dabe")
 		)
 		(pad "1" smd roundrect
-			(at -1.56 0)
+			(at -1.56 0 270)
 			(size 1.08 1.27)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.15)
@@ -6658,7 +6657,7 @@
 			(uuid "ca7c800d-9be8-4f1d-9abb-0365bb072548")
 		)
 		(pad "2" smd roundrect
-			(at 1.56 0)
+			(at 1.56 0 270)
 			(size 1.08 1.27)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.15)
@@ -6672,7 +6671,7 @@
 	(footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 		(layer "B.Cu")
 		(uuid "af347539-0ac7-4b60-b08d-4918109ee867")
-		(at 216.25 201 180)
+		(at 187 204.5 180)
 		(descr "SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP2"
@@ -6884,7 +6883,7 @@
 	(footprint "starlight:IN-S124AR-bottom-view"
 		(layer "B.Cu")
 		(uuid "affb8137-bdeb-40a5-bd64-2360b082318e")
-		(at 162.51 172.5)
+		(at 103.06 244.4)
 		(descr "IN-S124AR Bottom View")
 		(property "Reference" "D2"
 			(at 0 1.9 180)
@@ -7011,7 +7010,7 @@
 	(footprint "starlight:IN-S124AR-bottom-view"
 		(layer "B.Cu")
 		(uuid "b1ac25f6-54f7-4ba9-9ff0-1d0df59edc87")
-		(at 167.71 165.7)
+		(at 153.7 148.6)
 		(descr "IN-S124AR Bottom View")
 		(property "Reference" "D13"
 			(at 0 1.9 180)
@@ -7138,10 +7137,10 @@
 	(footprint "starlight:IN-S124AR-bottom-view"
 		(layer "B.Cu")
 		(uuid "b518d92f-8446-4d5f-b92f-00859e8084e1")
-		(at 178.11 155.5)
+		(at 114.7 209.8 180)
 		(descr "IN-S124AR Bottom View")
 		(property "Reference" "D34"
-			(at 0 1.9 180)
+			(at 0 1.9 0)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "2c5f2bec-851f-45ce-b6d0-6e27d20d7025")
@@ -7154,7 +7153,7 @@
 			)
 		)
 		(property "Value" "Yellow"
-			(at 0 -1 180)
+			(at 0 -1 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "001f58a3-9aba-4a10-99f1-07128da2d830")
@@ -7167,7 +7166,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -7181,7 +7180,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -7195,7 +7194,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -7221,7 +7220,7 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2.5 180)
+			(at 0 -2.5 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "af206139-ec39-47ed-a5f0-f6b03a1e82ee")
@@ -7234,14 +7233,14 @@
 			)
 		)
 		(pad "" np_thru_hole circle
-			(at 0 0)
+			(at 0 0 180)
 			(size 2.4 2.4)
 			(drill 2.4)
 			(layers "*.Cu" "*.Mask")
 			(uuid "6c4ae7e6-b16e-41d8-9b31-66a50c0a2699")
 		)
 		(pad "1" smd roundrect
-			(at -1.56 0)
+			(at -1.56 0 180)
 			(size 1.08 1.27)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.15)
@@ -7251,7 +7250,7 @@
 			(uuid "f4e35029-2301-44cb-b2a6-84bb3c5cecde")
 		)
 		(pad "2" smd roundrect
-			(at 1.56 0)
+			(at 1.56 0 180)
 			(size 1.08 1.27)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.15)
@@ -7265,10 +7264,10 @@
 	(footprint "starlight:IN-S124AR-bottom-view"
 		(layer "B.Cu")
 		(uuid "ba7e977c-452b-46c8-ad93-453627e0b99b")
-		(at 178.11 158.9)
+		(at 161.5 127.8 180)
 		(descr "IN-S124AR Bottom View")
 		(property "Reference" "D33"
-			(at 0 1.9 180)
+			(at 0 1.9 0)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "88416222-7cf2-4424-97a6-521a12dd1523")
@@ -7281,7 +7280,7 @@
 			)
 		)
 		(property "Value" "Yellow"
-			(at 0 -1 180)
+			(at 0 -1 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "987bb8bc-52fc-4662-9034-4d70e3c45b8d")
@@ -7294,7 +7293,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -7308,7 +7307,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -7322,7 +7321,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -7348,7 +7347,7 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2.5 180)
+			(at 0 -2.5 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "c78592c8-5999-4131-83eb-3e4c2c5e0d69")
@@ -7361,14 +7360,14 @@
 			)
 		)
 		(pad "" np_thru_hole circle
-			(at 0 0)
+			(at 0 0 180)
 			(size 2.4 2.4)
 			(drill 2.4)
 			(layers "*.Cu" "*.Mask")
 			(uuid "a0c4a5bc-6c49-4ef8-b423-f764644848b3")
 		)
 		(pad "1" smd roundrect
-			(at -1.56 0)
+			(at -1.56 0 180)
 			(size 1.08 1.27)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.15)
@@ -7378,7 +7377,7 @@
 			(uuid "d097e63e-8d67-4944-a8de-45cdc6929348")
 		)
 		(pad "2" smd roundrect
-			(at 1.56 0)
+			(at 1.56 0 180)
 			(size 1.08 1.27)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.15)
@@ -7392,10 +7391,10 @@
 	(footprint "starlight:IN-S124AR-bottom-view"
 		(layer "B.Cu")
 		(uuid "beb8703c-bd23-4f22-8d2b-9ade19b7ce24")
-		(at 162.51 169.1)
+		(at 131.9 268.16 90)
 		(descr "IN-S124AR Bottom View")
 		(property "Reference" "D3"
-			(at 0 1.9 180)
+			(at 0 1.9 270)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "37a23e10-e097-4aae-895c-0e03e47a904c")
@@ -7408,7 +7407,7 @@
 			)
 		)
 		(property "Value" "Yellow"
-			(at 0 -1 180)
+			(at 0 -1 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "d5cc419f-8de9-4eb2-b2d3-1c2d19fb9517")
@@ -7421,7 +7420,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -7435,7 +7434,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -7449,7 +7448,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -7475,7 +7474,7 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2.5 180)
+			(at 0 -2.5 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "effa25a1-d1cb-463e-b76e-25421fd28ce0")
@@ -7488,14 +7487,14 @@
 			)
 		)
 		(pad "" np_thru_hole circle
-			(at 0 0)
+			(at 0 0 90)
 			(size 2.4 2.4)
 			(drill 2.4)
 			(layers "*.Cu" "*.Mask")
 			(uuid "07e0ca4e-67be-48f8-bbd1-f531f7e24c11")
 		)
 		(pad "1" smd roundrect
-			(at -1.56 0)
+			(at -1.56 0 90)
 			(size 1.08 1.27)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.15)
@@ -7505,7 +7504,7 @@
 			(uuid "5796d27a-c0a6-4924-8839-b542656544d2")
 		)
 		(pad "2" smd roundrect
-			(at 1.56 0)
+			(at 1.56 0 90)
 			(size 1.08 1.27)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.15)
@@ -7519,10 +7518,10 @@
 	(footprint "starlight:IN-S124AR-bottom-view"
 		(layer "B.Cu")
 		(uuid "c1d744aa-ad6d-4bbd-b133-8fe73465adba")
-		(at 178.11 148.7)
+		(at 199.5 149.2 90)
 		(descr "IN-S124AR Bottom View")
 		(property "Reference" "D36"
-			(at 0 1.9 180)
+			(at 0 1.9 270)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "6b293314-3151-4301-9d44-8d57be0f9c02")
@@ -7535,7 +7534,7 @@
 			)
 		)
 		(property "Value" "Yellow"
-			(at 0 -1 180)
+			(at 0 -1 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "4185e8c3-fce2-4e75-a19d-e929ec703a82")
@@ -7548,7 +7547,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -7562,7 +7561,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -7576,7 +7575,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -7602,7 +7601,7 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2.5 180)
+			(at 0 -2.5 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "9f108eae-799f-4558-9534-b0e6ef8dd26e")
@@ -7615,14 +7614,14 @@
 			)
 		)
 		(pad "" np_thru_hole circle
-			(at 0 0)
+			(at 0 0 90)
 			(size 2.4 2.4)
 			(drill 2.4)
 			(layers "*.Cu" "*.Mask")
 			(uuid "6bfc3295-f218-44d8-8c3a-18506d7b066f")
 		)
 		(pad "1" smd roundrect
-			(at -1.56 0)
+			(at -1.56 0 90)
 			(size 1.08 1.27)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.15)
@@ -7632,7 +7631,7 @@
 			(uuid "3310382b-5317-4088-95dc-d3f4206abafd")
 		)
 		(pad "2" smd roundrect
-			(at 1.56 0)
+			(at 1.56 0 90)
 			(size 1.08 1.27)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.15)
@@ -7810,10 +7809,10 @@
 	(footprint "starlight:IN-S124AR-bottom-view"
 		(layer "B.Cu")
 		(uuid "c916f533-207d-436b-b680-35f5f7d42464")
-		(at 162.51 165.7)
+		(at 215.86 183.1 180)
 		(descr "IN-S124AR Bottom View")
 		(property "Reference" "D4"
-			(at 0 1.9 180)
+			(at 0 1.9 0)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "561dc01d-f5ea-4f48-b4f7-052d29d7c630")
@@ -7826,7 +7825,7 @@
 			)
 		)
 		(property "Value" "Yellow"
-			(at 0 -1 180)
+			(at 0 -1 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "7257f797-5aaa-494b-9aa8-df30212b8097")
@@ -7839,7 +7838,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -7853,7 +7852,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -7867,7 +7866,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -7893,7 +7892,7 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2.5 180)
+			(at 0 -2.5 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "d67f9969-2fdc-4b48-af75-396689110b57")
@@ -7906,14 +7905,14 @@
 			)
 		)
 		(pad "" np_thru_hole circle
-			(at 0 0)
+			(at 0 0 180)
 			(size 2.4 2.4)
 			(drill 2.4)
 			(layers "*.Cu" "*.Mask")
 			(uuid "97f96959-ba3c-4e79-8a7a-870e522cb2bd")
 		)
 		(pad "1" smd roundrect
-			(at -1.56 0)
+			(at -1.56 0 180)
 			(size 1.08 1.27)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.15)
@@ -7923,7 +7922,7 @@
 			(uuid "4147ae38-1469-48fa-9f3c-832c478cd76d")
 		)
 		(pad "2" smd roundrect
-			(at 1.56 0)
+			(at 1.56 0 180)
 			(size 1.08 1.27)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.15)
@@ -7937,10 +7936,10 @@
 	(footprint "starlight:IN-S124AR-bottom-view"
 		(layer "B.Cu")
 		(uuid "c99fcd7d-9e1d-4c0f-aba6-5da0111c6740")
-		(at 172.91 155.5)
+		(at 133.96 116.2 180)
 		(descr "IN-S124AR Bottom View")
 		(property "Reference" "D25"
-			(at 0 1.9 180)
+			(at 0 1.9 0)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "7b754fa1-7dbf-4da4-8137-2711d14417a9")
@@ -7953,7 +7952,7 @@
 			)
 		)
 		(property "Value" "Yellow"
-			(at 0 -1 180)
+			(at 0 -1 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "350f23ca-7976-4156-a1be-111de28f304a")
@@ -7966,7 +7965,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -7980,7 +7979,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -7994,7 +7993,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -8020,7 +8019,7 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2.5 180)
+			(at 0 -2.5 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "530c5607-a0a9-4d0c-86aa-d5d63d83bd22")
@@ -8033,14 +8032,14 @@
 			)
 		)
 		(pad "" np_thru_hole circle
-			(at 0 0)
+			(at 0 0 180)
 			(size 2.4 2.4)
 			(drill 2.4)
 			(layers "*.Cu" "*.Mask")
 			(uuid "95379512-8fb5-4f63-9d74-e2de8af9ace3")
 		)
 		(pad "1" smd roundrect
-			(at -1.56 0)
+			(at -1.56 0 180)
 			(size 1.08 1.27)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.15)
@@ -8050,7 +8049,7 @@
 			(uuid "b9b8cea5-a86c-491a-8629-55c8f605d4dd")
 		)
 		(pad "2" smd roundrect
-			(at 1.56 0)
+			(at 1.56 0 180)
 			(size 1.08 1.27)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.15)
@@ -8241,7 +8240,7 @@
 	(footprint "starlight:IN-S124AR-bottom-view"
 		(layer "B.Cu")
 		(uuid "cc9bf7a2-d632-487f-aa95-f7818c40aee0")
-		(at 183.31 169.1)
+		(at 208.7 229.2)
 		(descr "IN-S124AR Bottom View")
 		(property "Reference" "D39"
 			(at 0 1.9 180)
@@ -8368,10 +8367,10 @@
 	(footprint "starlight:IN-S124AR-bottom-view"
 		(layer "B.Cu")
 		(uuid "cd0414d1-83be-4198-9a70-6e9d4a6641da")
-		(at 183.31 165.7)
+		(at 199.1 177.26 90)
 		(descr "IN-S124AR Bottom View")
 		(property "Reference" "D40"
-			(at 0 1.9 180)
+			(at 0 1.9 270)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "d6b8edee-076b-4db3-a162-ac37938aaf36")
@@ -8384,7 +8383,7 @@
 			)
 		)
 		(property "Value" "Yellow"
-			(at 0 -1 180)
+			(at 0 -1 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "6f3a070d-5708-4fe4-b4cb-73dc4e7ebc69")
@@ -8397,7 +8396,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -8411,7 +8410,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -8425,7 +8424,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -8451,7 +8450,7 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2.5 180)
+			(at 0 -2.5 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "b71bda76-be82-4d8e-9d1b-aa4978f0f93b")
@@ -8464,14 +8463,14 @@
 			)
 		)
 		(pad "" np_thru_hole circle
-			(at 0 0)
+			(at 0 0 90)
 			(size 2.4 2.4)
 			(drill 2.4)
 			(layers "*.Cu" "*.Mask")
 			(uuid "d417434c-883d-48b7-a904-4af5de471491")
 		)
 		(pad "1" smd roundrect
-			(at -1.56 0)
+			(at -1.56 0 90)
 			(size 1.08 1.27)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.15)
@@ -8481,7 +8480,7 @@
 			(uuid "b67ee932-4437-4777-88cf-e7a5d63fe447")
 		)
 		(pad "2" smd roundrect
-			(at 1.56 0)
+			(at 1.56 0 90)
 			(size 1.08 1.27)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.15)
@@ -8495,10 +8494,10 @@
 	(footprint "starlight:IN-S124AR-bottom-view"
 		(layer "B.Cu")
 		(uuid "ce332179-44cb-4b69-9d87-816263e44bb6")
-		(at 162.51 162.3)
+		(at 132.6 190.16 -90)
 		(descr "IN-S124AR Bottom View")
 		(property "Reference" "D5"
-			(at 0 1.9 180)
+			(at 0 1.9 90)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "7649ff2d-dfcb-4d07-81dd-d24e19d921b8")
@@ -8511,7 +8510,7 @@
 			)
 		)
 		(property "Value" "Yellow"
-			(at 0 -1 180)
+			(at 0 -1 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "4412f415-6dc0-47f2-8bfd-4c8bafc7b8d3")
@@ -8524,7 +8523,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 180)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -8538,7 +8537,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 0 0 180)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -8552,7 +8551,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 180)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -8578,7 +8577,7 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2.5 180)
+			(at 0 -2.5 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "9fa7c724-2878-4bda-aaef-f452bd935b26")
@@ -8591,14 +8590,14 @@
 			)
 		)
 		(pad "" np_thru_hole circle
-			(at 0 0)
+			(at 0 0 270)
 			(size 2.4 2.4)
 			(drill 2.4)
 			(layers "*.Cu" "*.Mask")
 			(uuid "842c1e6f-9fa7-4f64-a79d-8d9e2ec9def2")
 		)
 		(pad "1" smd roundrect
-			(at -1.56 0)
+			(at -1.56 0 270)
 			(size 1.08 1.27)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.15)
@@ -8608,7 +8607,7 @@
 			(uuid "62faa92d-146e-4175-bd2d-b07c88a137ea")
 		)
 		(pad "2" smd roundrect
-			(at 1.56 0)
+			(at 1.56 0 270)
 			(size 1.08 1.27)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.15)
@@ -8786,7 +8785,7 @@
 	(footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 		(layer "B.Cu")
 		(uuid "d6c7e80c-05e3-47c6-ad5a-5ec3ad100eb7")
-		(at 216.25 197 180)
+		(at 186.975 200.5 180)
 		(descr "SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP1"
@@ -9162,10 +9161,10 @@
 	(footprint "starlight:IN-S124AR-bottom-view"
 		(layer "B.Cu")
 		(uuid "da17226f-ebec-4c8f-9a89-847b7e02f0b1")
-		(at 178.11 169.1)
+		(at 91.14 213.8 180)
 		(descr "IN-S124AR Bottom View")
 		(property "Reference" "D30"
-			(at 0 1.9 180)
+			(at 0 1.9 0)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "0d037956-96dc-44be-97f1-f48567e2db96")
@@ -9178,7 +9177,7 @@
 			)
 		)
 		(property "Value" "Yellow"
-			(at 0 -1 180)
+			(at 0 -1 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "e7a2c48b-79f1-46a0-88cb-0b940c7b87d5")
@@ -9191,7 +9190,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -9205,7 +9204,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -9219,7 +9218,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -9245,7 +9244,7 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2.5 180)
+			(at 0 -2.5 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "ba43dff1-7b62-4f8c-bdfc-f3eb6df5e19c")
@@ -9258,14 +9257,14 @@
 			)
 		)
 		(pad "" np_thru_hole circle
-			(at 0 0)
+			(at 0 0 180)
 			(size 2.4 2.4)
 			(drill 2.4)
 			(layers "*.Cu" "*.Mask")
 			(uuid "71b4145e-82bb-4451-ab3a-23ca2c9f9e7a")
 		)
 		(pad "1" smd roundrect
-			(at -1.56 0)
+			(at -1.56 0 180)
 			(size 1.08 1.27)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.15)
@@ -9275,7 +9274,7 @@
 			(uuid "d2b1a684-5f40-46e5-9c94-5dca2068d956")
 		)
 		(pad "2" smd roundrect
-			(at 1.56 0)
+			(at 1.56 0 180)
 			(size 1.08 1.27)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.15)
@@ -9403,10 +9402,10 @@
 	(footprint "starlight:IN-S124AR-bottom-view"
 		(layer "B.Cu")
 		(uuid "e0f866c1-bbb7-4e70-89ee-eba3c087b9d6")
-		(at 178.11 145.3)
+		(at 188.6 120.5 180)
 		(descr "IN-S124AR Bottom View")
 		(property "Reference" "D37"
-			(at 0 1.9 180)
+			(at 0 1.9 0)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "538cd031-d0fa-49a6-b792-df30fef98e8e")
@@ -9419,7 +9418,7 @@
 			)
 		)
 		(property "Value" "Yellow"
-			(at 0 -1 180)
+			(at 0 -1 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "6d095160-90e8-438f-bf9e-43b6cc00ef49")
@@ -9432,7 +9431,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -9446,7 +9445,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -9460,7 +9459,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -9486,7 +9485,7 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2.5 180)
+			(at 0 -2.5 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "a6b5414c-447e-4fbc-b63b-9268305b334a")
@@ -9499,14 +9498,14 @@
 			)
 		)
 		(pad "" np_thru_hole circle
-			(at 0 0)
+			(at 0 0 180)
 			(size 2.4 2.4)
 			(drill 2.4)
 			(layers "*.Cu" "*.Mask")
 			(uuid "c23ae252-9576-4b37-814b-1ab127e7e1c7")
 		)
 		(pad "1" smd roundrect
-			(at -1.56 0)
+			(at -1.56 0 180)
 			(size 1.08 1.27)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.15)
@@ -9516,7 +9515,7 @@
 			(uuid "2ead74fd-3689-427d-b68a-1038d753ee52")
 		)
 		(pad "2" smd roundrect
-			(at 1.56 0)
+			(at 1.56 0 180)
 			(size 1.08 1.27)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.15)
@@ -9644,10 +9643,10 @@
 	(footprint "starlight:IN-S124AR-bottom-view"
 		(layer "B.Cu")
 		(uuid "e17be922-d1e3-45c5-bff1-7c2464ef3de7")
-		(at 172.91 152.1)
+		(at 83.06 217.8 180)
 		(descr "IN-S124AR Bottom View")
 		(property "Reference" "D26"
-			(at 0 1.9 180)
+			(at 0 1.9 0)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "ed1f680f-4740-4aea-9d3b-b21b9387ea4a")
@@ -9660,7 +9659,7 @@
 			)
 		)
 		(property "Value" "Yellow"
-			(at 0 -1 180)
+			(at 0 -1 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "ea187f59-245b-40a6-b16c-364dac7d50bf")
@@ -9673,7 +9672,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -9687,7 +9686,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -9701,7 +9700,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -9727,7 +9726,7 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2.5 180)
+			(at 0 -2.5 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "766644cc-2ddc-4915-a793-e24dacdbaf7f")
@@ -9740,14 +9739,14 @@
 			)
 		)
 		(pad "" np_thru_hole circle
-			(at 0 0)
+			(at 0 0 180)
 			(size 2.4 2.4)
 			(drill 2.4)
 			(layers "*.Cu" "*.Mask")
 			(uuid "f0621e07-4509-49b6-a394-a53eb74e10b8")
 		)
 		(pad "1" smd roundrect
-			(at -1.56 0)
+			(at -1.56 0 180)
 			(size 1.08 1.27)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.15)
@@ -9757,7 +9756,7 @@
 			(uuid "4a58d874-4b72-4613-8337-f95ebe22839d")
 		)
 		(pad "2" smd roundrect
-			(at 1.56 0)
+			(at 1.56 0 180)
 			(size 1.08 1.27)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.15)
@@ -10099,10 +10098,10 @@
 	(footprint "starlight:IN-S124AR-bottom-view"
 		(layer "B.Cu")
 		(uuid "f1915d35-26b7-409a-88c6-ce341d7ff538")
-		(at 167.71 169.1)
+		(at 214.94 205.6 180)
 		(descr "IN-S124AR Bottom View")
 		(property "Reference" "D12"
-			(at 0 1.9 180)
+			(at 0 1.9 0)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "6b56f0fb-44f1-4029-ab43-c777b7df7d70")
@@ -10115,7 +10114,7 @@
 			)
 		)
 		(property "Value" "Yellow"
-			(at 0 -1 180)
+			(at 0 -1 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "7ae31dd7-42f5-4b1a-b434-033d8df2c1bd")
@@ -10128,7 +10127,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -10142,7 +10141,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -10156,7 +10155,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -10182,7 +10181,7 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2.5 180)
+			(at 0 -2.5 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "fd96e306-402d-4f5b-863a-be339ef9dcdd")
@@ -10195,14 +10194,14 @@
 			)
 		)
 		(pad "" np_thru_hole circle
-			(at 0 0)
+			(at 0 0 180)
 			(size 2.4 2.4)
 			(drill 2.4)
 			(layers "*.Cu" "*.Mask")
 			(uuid "1d3cd15d-58c5-456b-bc93-a7d591d02ece")
 		)
 		(pad "1" smd roundrect
-			(at -1.56 0)
+			(at -1.56 0 180)
 			(size 1.08 1.27)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.15)
@@ -10212,7 +10211,7 @@
 			(uuid "65c0da8a-ea91-42ae-a3b4-08c2b5193313")
 		)
 		(pad "2" smd roundrect
-			(at 1.56 0)
+			(at 1.56 0 180)
 			(size 1.08 1.27)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.15)
@@ -10864,7 +10863,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "fa0e89ec-54fa-4bc0-b594-0951a3402ca4")
-		(at 208.25 192.75 90)
+		(at 177.1 195 90)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R3"
@@ -11025,416 +11024,9 @@
 			)
 		)
 	)
-	(gr_rect
-		(start 121.1 133.4)
-		(end 132.1 154.6)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.SilkS")
-		(uuid "4682c5cb-35a0-4ceb-8877-c43cfb33014c")
-	)
-	(gr_rect
-		(start 106.1 134)
-		(end 117.1 155.2)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Paste")
-		(uuid "f19dcf74-dd36-4667-bfb0-872d5c91a97c")
-	)
 	(gr_circle
-		(center 94.3 199.8)
-		(end 95.5 199.8)
-		(stroke
-			(width 0.1)
-			(type dash)
-		)
-		(fill no)
-		(layer "Cmts.User")
-		(uuid "d02cfcd0-ef31-491a-a8dd-b93e02290676")
-	)
-	(gr_circle
-		(center 94.5 196.4)
-		(end 95.7 196.4)
-		(stroke
-			(width 0.1)
-			(type dash)
-		)
-		(fill no)
-		(layer "Cmts.User")
-		(uuid "c7f6f554-bf6a-401d-985f-6e91835153f3")
-	)
-	(gr_circle
-		(center 94.5 202.8)
-		(end 95.7 202.8)
-		(stroke
-			(width 0.1)
-			(type dash)
-		)
-		(fill no)
-		(layer "Cmts.User")
-		(uuid "1cf22868-8863-4318-aec8-fc236f09d10e")
-	)
-	(gr_circle
-		(center 94.5 206.4)
-		(end 95.7 206.4)
-		(stroke
-			(width 0.1)
-			(type dash)
-		)
-		(fill no)
-		(layer "Cmts.User")
-		(uuid "f9a2d786-3084-4c2b-9fdb-c9557c998a61")
-	)
-	(gr_circle
-		(center 94.5 217.2)
-		(end 95.7 217.2)
-		(stroke
-			(width 0.1)
-			(type dash)
-		)
-		(fill no)
-		(layer "Cmts.User")
-		(uuid "03a46389-275b-4078-b65f-42cb287f4cf7")
-	)
-	(gr_circle
-		(center 94.7 210.2)
-		(end 95.9 210.2)
-		(stroke
-			(width 0.1)
-			(type dash)
-		)
-		(fill no)
-		(layer "Cmts.User")
-		(uuid "8c71b5c2-064b-4c49-a2ee-d938b99b8b4b")
-	)
-	(gr_circle
-		(center 94.7 213.8)
-		(end 95.9 213.8)
-		(stroke
-			(width 0.1)
-			(type dash)
-		)
-		(fill no)
-		(layer "Cmts.User")
-		(uuid "e78987a3-584d-40e0-9161-f56ec0629d25")
-	)
-	(gr_circle
-		(center 94.7 220.2)
-		(end 95.9 220.2)
-		(stroke
-			(width 0.1)
-			(type dash)
-		)
-		(fill no)
-		(layer "Cmts.User")
-		(uuid "4eec2339-6e40-489e-afff-e3b1fbc05d39")
-	)
-	(gr_circle
-		(center 94.7 223.8)
-		(end 95.9 223.8)
-		(stroke
-			(width 0.1)
-			(type dash)
-		)
-		(fill no)
-		(layer "Cmts.User")
-		(uuid "32609db3-5541-443c-80d4-d106af0def8d")
-	)
-	(gr_circle
-		(center 94.9 227.6)
-		(end 96.1 227.6)
-		(stroke
-			(width 0.1)
-			(type dash)
-		)
-		(fill no)
-		(layer "Cmts.User")
-		(uuid "48f5fe4d-dd60-4074-bf5f-7f155e1c81c6")
-	)
-	(gr_circle
-		(center 99.3 199.8)
-		(end 100.5 199.8)
-		(stroke
-			(width 0.1)
-			(type dash)
-		)
-		(fill no)
-		(layer "Cmts.User")
-		(uuid "3854a8c8-4e30-4478-9b5f-1856c364b97f")
-	)
-	(gr_circle
-		(center 99.5 196.4)
-		(end 100.7 196.4)
-		(stroke
-			(width 0.1)
-			(type dash)
-		)
-		(fill no)
-		(layer "Cmts.User")
-		(uuid "61a19bdd-8634-491c-8b87-9a214eacf309")
-	)
-	(gr_circle
-		(center 99.5 202.8)
-		(end 100.7 202.8)
-		(stroke
-			(width 0.1)
-			(type dash)
-		)
-		(fill no)
-		(layer "Cmts.User")
-		(uuid "a970b33e-9bdf-4a3d-828b-480fecdd6100")
-	)
-	(gr_circle
-		(center 99.5 206.4)
-		(end 100.7 206.4)
-		(stroke
-			(width 0.1)
-			(type dash)
-		)
-		(fill no)
-		(layer "Cmts.User")
-		(uuid "bb6ffc21-f706-4b11-bc9e-f8c12d8711f0")
-	)
-	(gr_circle
-		(center 99.5 217.2)
-		(end 100.7 217.2)
-		(stroke
-			(width 0.1)
-			(type dash)
-		)
-		(fill no)
-		(layer "Cmts.User")
-		(uuid "0b6b429e-90c2-4617-9873-58bf9df7e2df")
-	)
-	(gr_circle
-		(center 99.7 210.2)
-		(end 100.9 210.2)
-		(stroke
-			(width 0.1)
-			(type dash)
-		)
-		(fill no)
-		(layer "Cmts.User")
-		(uuid "2326c8dd-f07e-4728-90c0-577fca8128cd")
-	)
-	(gr_circle
-		(center 99.7 213.8)
-		(end 100.9 213.8)
-		(stroke
-			(width 0.1)
-			(type dash)
-		)
-		(fill no)
-		(layer "Cmts.User")
-		(uuid "d1bf1612-24a1-491c-9f4a-3593c9e05f3a")
-	)
-	(gr_circle
-		(center 99.7 220.2)
-		(end 100.9 220.2)
-		(stroke
-			(width 0.1)
-			(type dash)
-		)
-		(fill no)
-		(layer "Cmts.User")
-		(uuid "4c7cb170-7d28-4b52-95c5-886b09905cba")
-	)
-	(gr_circle
-		(center 99.7 223.8)
-		(end 100.9 223.8)
-		(stroke
-			(width 0.1)
-			(type dash)
-		)
-		(fill no)
-		(layer "Cmts.User")
-		(uuid "344d3f91-9641-4db2-8ac4-580c8cfcb834")
-	)
-	(gr_circle
-		(center 99.9 227.6)
-		(end 101.1 227.6)
-		(stroke
-			(width 0.1)
-			(type dash)
-		)
-		(fill no)
-		(layer "Cmts.User")
-		(uuid "10024665-0870-4235-a75b-73892ce7842d")
-	)
-	(gr_circle
-		(center 104.5 199.4)
-		(end 105.7 199.4)
-		(stroke
-			(width 0.1)
-			(type dash)
-		)
-		(fill no)
-		(layer "Cmts.User")
-		(uuid "0871c6e2-ef3e-488d-a696-366595010082")
-	)
-	(gr_circle
-		(center 104.7 196)
-		(end 105.9 196)
-		(stroke
-			(width 0.1)
-			(type dash)
-		)
-		(fill no)
-		(layer "Cmts.User")
-		(uuid "7f035588-875b-4f71-acf2-66da708da918")
-	)
-	(gr_circle
-		(center 104.7 202.4)
-		(end 105.9 202.4)
-		(stroke
-			(width 0.1)
-			(type dash)
-		)
-		(fill no)
-		(layer "Cmts.User")
-		(uuid "c2812002-1df4-44ad-bf17-013a371f4b10")
-	)
-	(gr_circle
-		(center 104.7 206)
-		(end 105.9 206)
-		(stroke
-			(width 0.1)
-			(type dash)
-		)
-		(fill no)
-		(layer "Cmts.User")
-		(uuid "564501ec-b0fb-48d2-a9e8-3350f2c4c799")
-	)
-	(gr_circle
-		(center 104.7 216.8)
-		(end 105.9 216.8)
-		(stroke
-			(width 0.1)
-			(type dash)
-		)
-		(fill no)
-		(layer "Cmts.User")
-		(uuid "99793ffe-f262-4d1d-9296-f1e2f01d46ea")
-	)
-	(gr_circle
-		(center 104.9 209.8)
-		(end 106.1 209.8)
-		(stroke
-			(width 0.1)
-			(type dash)
-		)
-		(fill no)
-		(layer "Cmts.User")
-		(uuid "7d77ebb1-a845-4c39-bc1c-607abe273d7e")
-	)
-	(gr_circle
-		(center 104.9 213.4)
-		(end 106.1 213.4)
-		(stroke
-			(width 0.1)
-			(type dash)
-		)
-		(fill no)
-		(layer "Cmts.User")
-		(uuid "aa280925-340a-47b2-91a0-b41557e5cff7")
-	)
-	(gr_circle
-		(center 104.9 219.8)
-		(end 106.1 219.8)
-		(stroke
-			(width 0.1)
-			(type dash)
-		)
-		(fill no)
-		(layer "Cmts.User")
-		(uuid "5b43f630-e3ed-40e5-8299-489e922d41bd")
-	)
-	(gr_circle
-		(center 104.9 223.4)
-		(end 106.1 223.4)
-		(stroke
-			(width 0.1)
-			(type dash)
-		)
-		(fill no)
-		(layer "Cmts.User")
-		(uuid "56c1e420-a83f-4cf6-bcc4-6e60c7fbe055")
-	)
-	(gr_circle
-		(center 105.1 227.2)
-		(end 106.3 227.2)
-		(stroke
-			(width 0.1)
-			(type dash)
-		)
-		(fill no)
-		(layer "Cmts.User")
-		(uuid "955bb2b3-84f7-45c4-a655-372da9a8ecd3")
-	)
-	(gr_circle
-		(center 109.5 199.4)
-		(end 110.7 199.4)
-		(stroke
-			(width 0.1)
-			(type dash)
-		)
-		(fill no)
-		(layer "Cmts.User")
-		(uuid "87214f37-369a-410f-a3ec-a3fd20e9c20d")
-	)
-	(gr_circle
-		(center 109.7 196)
-		(end 110.9 196)
-		(stroke
-			(width 0.1)
-			(type dash)
-		)
-		(fill no)
-		(layer "Cmts.User")
-		(uuid "5a58a1f1-f1c4-42e9-bbb0-4c4fb70b71e7")
-	)
-	(gr_circle
-		(center 109.7 202.4)
-		(end 110.9 202.4)
-		(stroke
-			(width 0.1)
-			(type dash)
-		)
-		(fill no)
-		(layer "Cmts.User")
-		(uuid "07e507c1-6fe0-4bc0-9c7c-c879e2602d60")
-	)
-	(gr_circle
-		(center 109.7 206)
-		(end 110.9 206)
-		(stroke
-			(width 0.1)
-			(type dash)
-		)
-		(fill no)
-		(layer "Cmts.User")
-		(uuid "405433c4-9330-4fa4-a188-f3498c96f5de")
-	)
-	(gr_circle
-		(center 109.7 216.8)
-		(end 110.9 216.8)
-		(stroke
-			(width 0.1)
-			(type dash)
-		)
-		(fill no)
-		(layer "Cmts.User")
-		(uuid "888aa8f0-71fc-4da4-a33f-6ca4ce50acf7")
-	)
-	(gr_circle
-		(center 109.9 209.8)
-		(end 111.1 209.8)
+		(center 51.57 222.78)
+		(end 51.57 223.98)
 		(stroke
 			(width 0.1)
 			(type dash)
@@ -11444,19 +11036,151 @@
 		(uuid "4e392c19-e159-41e1-aedc-cc828b1e7f96")
 	)
 	(gr_circle
-		(center 109.9 213.4)
-		(end 111.1 213.4)
+		(center 53.91 204.9)
+		(end 53.91 206.1)
 		(stroke
 			(width 0.1)
 			(type dash)
 		)
 		(fill no)
 		(layer "Cmts.User")
-		(uuid "735de4f0-4ef3-41b8-a2ed-d0e133a04661")
+		(uuid "bb6ffc21-f706-4b11-bc9e-f8c12d8711f0")
 	)
 	(gr_circle
-		(center 109.9 219.8)
-		(end 111.1 219.8)
+		(center 65.3 225.96)
+		(end 65.3 227.16)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "955bb2b3-84f7-45c4-a655-372da9a8ecd3")
+	)
+	(gr_circle
+		(center 68.93 239.28)
+		(end 68.93 240.48)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "888aa8f0-71fc-4da4-a33f-6ca4ce50acf7")
+	)
+	(gr_circle
+		(center 83 217.78)
+		(end 83 218.98)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "8c71b5c2-064b-4c49-a2ee-d938b99b8b4b")
+	)
+	(gr_circle
+		(center 91.2 213.71)
+		(end 91.2 214.91)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "e78987a3-584d-40e0-9161-f56ec0629d25")
+	)
+	(gr_circle
+		(center 92.66 268.98)
+		(end 92.66 270.18)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "10024665-0870-4235-a75b-73892ce7842d")
+	)
+	(gr_circle
+		(center 93.51 125.24)
+		(end 93.51 126.44)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "add728ef-5944-4c18-85a0-30961d2a3531")
+	)
+	(gr_circle
+		(center 102.99 244.34)
+		(end 102.99 245.54)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "03a46389-275b-4078-b65f-42cb287f4cf7")
+	)
+	(gr_circle
+		(center 105.56 286.34)
+		(end 105.56 287.54)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "d1bf1612-24a1-491c-9f4a-3593c9e05f3a")
+	)
+	(gr_circle
+		(center 114.62 209.84)
+		(end 114.62 211.04)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "f9a2d786-3084-4c2b-9fdb-c9557c998a61")
+	)
+	(gr_circle
+		(center 131.89 268.17)
+		(end 131.89 269.37)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "4eec2339-6e40-489e-afff-e3b1fbc05d39")
+	)
+	(gr_circle
+		(center 132.6 190.13)
+		(end 132.6 191.33)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "c7f6f554-bf6a-401d-985f-6e91835153f3")
+	)
+	(gr_circle
+		(center 133.97 116.23)
+		(end 133.97 117.43)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "5a58a1f1-f1c4-42e9-bbb0-4c4fb70b71e7")
+	)
+	(gr_circle
+		(center 135.77 103.11)
+		(end 135.77 104.31)
 		(stroke
 			(width 0.1)
 			(type dash)
@@ -11466,8 +11190,261 @@
 		(uuid "5469f3d9-20aa-449d-a863-10ecbcc47ae1")
 	)
 	(gr_circle
-		(center 109.9 223.4)
-		(end 111.1 223.4)
+		(center 145.03 150.48)
+		(end 145.03 151.68)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "1cf22868-8863-4318-aec8-fc236f09d10e")
+	)
+	(gr_circle
+		(center 145.5 200)
+		(end 145.5 201.2)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "d02cfcd0-ef31-491a-a8dd-b93e02290676")
+	)
+	(gr_circle
+		(center 154.48 152.43)
+		(end 154.48 153.63)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "4c7cb170-7d28-4b52-95c5-886b09905cba")
+	)
+	(gr_circle
+		(center 154.84 153.14)
+		(end 154.84 154.34)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "5b43f630-e3ed-40e5-8299-489e922d41bd")
+	)
+	(gr_circle
+		(center 161.32 273.91)
+		(end 161.32 275.11)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "7d77ebb1-a845-4c39-bc1c-607abe273d7e")
+	)
+	(gr_circle
+		(center 161.46 127.75)
+		(end 161.46 128.95)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "48f5fe4d-dd60-4074-bf5f-7f155e1c81c6")
+	)
+	(gr_circle
+		(center 187.36 257.61)
+		(end 187.36 258.81)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "c2812002-1df4-44ad-bf17-013a371f4b10")
+	)
+	(gr_circle
+		(center 188.64 120.47)
+		(end 188.64 121.67)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "07e507c1-6fe0-4bc0-9c7c-c879e2602d60")
+	)
+	(gr_circle
+		(center 192.8 173.61)
+		(end 192.8 174.81)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "0871c6e2-ef3e-488d-a696-366595010082")
+	)
+	(gr_circle
+		(center 197.04 268.98)
+		(end 197.04 270.18)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "61a19bdd-8634-491c-8b87-9a214eacf309")
+	)
+	(gr_circle
+		(center 199.09 177.25)
+		(end 199.09 178.45)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "56c1e420-a83f-4cf6-bcc4-6e60c7fbe055")
+	)
+	(gr_circle
+		(center 199.46 149.19)
+		(end 199.46 150.39)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "2326c8dd-f07e-4728-90c0-577fca8128cd")
+	)
+	(gr_circle
+		(center 206.9 195.14)
+		(end 206.9 196.34)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "3854a8c8-4e30-4478-9b5f-1856c364b97f")
+	)
+	(gr_circle
+		(center 208.64 229.11)
+		(end 208.64 230.31)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "32609db3-5541-443c-80d4-d106af0def8d")
+	)
+	(gr_circle
+		(center 209.2 145.24)
+		(end 209.2 146.44)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "aa280925-340a-47b2-91a0-b41557e5cff7")
+	)
+	(gr_circle
+		(center 210.65 262.4)
+		(end 210.65 263.6)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "405433c4-9330-4fa4-a188-f3498c96f5de")
+	)
+	(gr_circle
+		(center 214.9 205.58)
+		(end 214.9 206.78)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "344d3f91-9641-4db2-8ac4-580c8cfcb834")
+	)
+	(gr_circle
+		(center 215.92 183.05)
+		(end 215.92 184.25)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "a970b33e-9bdf-4a3d-828b-480fecdd6100")
+	)
+	(gr_circle
+		(center 216.59 147.19)
+		(end 216.59 148.39)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "735de4f0-4ef3-41b8-a2ed-d0e133a04661")
+	)
+	(gr_circle
+		(center 218.08 268.29)
+		(end 218.08 269.49)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "99793ffe-f262-4d1d-9296-f1e2f01d46ea")
+	)
+	(gr_circle
+		(center 229.22 168.93)
+		(end 229.22 170.13)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "0b6b429e-90c2-4617-9873-58bf9df7e2df")
+	)
+	(gr_circle
+		(center 231.28 241.87)
+		(end 231.28 243.07)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "7f035588-875b-4f71-acf2-66da708da918")
+	)
+	(gr_circle
+		(center 237.31 230.06)
+		(end 237.31 231.26)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "564501ec-b0fb-48d2-a9e8-3350f2c4c799")
+	)
+	(gr_circle
+		(center 238.75 169.17)
+		(end 238.75 170.37)
 		(stroke
 			(width 0.1)
 			(type dash)
@@ -11477,15 +11454,15 @@
 		(uuid "823e4e9c-0e3d-4bfd-9ab5-d1ccaf4ffb76")
 	)
 	(gr_circle
-		(center 110.1 227.2)
-		(end 111.3 227.2)
+		(center 239.37 202.21)
+		(end 239.37 203.41)
 		(stroke
 			(width 0.1)
 			(type dash)
 		)
 		(fill no)
 		(layer "Cmts.User")
-		(uuid "add728ef-5944-4c18-85a0-30961d2a3531")
+		(uuid "87214f37-369a-410f-a3ec-a3fd20e9c20d")
 	)
 	(gr_circle
 		(center 145.5 200)
